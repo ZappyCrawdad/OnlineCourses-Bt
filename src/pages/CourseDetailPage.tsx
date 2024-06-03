@@ -31,12 +31,7 @@ const CourseDetailPage: React.FC = () => {
         </div>
       </div>
       <div className="course-additional-text">
-        <p>
-          {/* Aquí puedes agregar texto específico para cada curso */}
-          Este curso te enseñará los conceptos básicos y avanzados de {course.title}. Aprenderás a desarrollar aplicaciones web de manera eficiente y profesional.
-        </p>
-        <p>Duración del curso: 10 horas</p>
-        <p>Requisitos previos: Conocimientos básicos de programación</p>
+        <p>{course.additionalInfo}</p>
       </div>
     </div>
   );
