@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #1e1e1e;
+  background-color: #121212; /* Fondo de toda la aplicación */
   color: #ffffff;
   min-height: 100vh;
   display: flex;
@@ -63,11 +63,47 @@
   margin: 5px 0 0;
 }
 
-.course-detail {
+.course-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   width: 80%;
 }
 
+.main-content {
+  background-color: #1e1e1e; /* Fondo específico para la parte del video y la descripción */
+  padding: 20px;
+  border-radius: 10px; /* Añadir un radio para los bordes */
+  width: 100%;
+}
+
 .video-container {
   margin-bottom: 20px;
+}
+
+.course-text {
+  text-align: left;
+  width: 100%;
+}
+
+.course-text h2 {
+  font-size: 2em;
+}
+
+.course-text p {
+  font-size: 1.2em;
+  color: #bbb;
+}
+
+.course-additional-text {
+  width: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.course-additional-text p {
+  font-size: 1em;
+  color: #bbb;
+  margin: 10px 0;
 }
