@@ -6,11 +6,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative; /* Añadido para permitir la posición absoluta de la imagen */
 }
 
 .home-page {
   padding: 20px;
   width: 80%;
+  position: relative; /* Añadido para contexto de posición absoluta */
+}
+
+.decorative-image {
+  width: 700px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  position: absolute; /* Para posicionar la imagen absolutamente */
+  right: -560px; /* Ajusta esta propiedad para mover la imagen a la derecha */
+  top: -20px; /* Ajusta esta propiedad para mover la imagen verticalmente */
 }
 
 .course-list {
